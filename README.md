@@ -3,7 +3,7 @@
 ## Description
 QotesSpider is a Python web scraping spider created using Scrapy. It is designed to scrape quotes from the website 'https://quotes.toscrape.com/' and save the extracted data in an output.json file.
 
-__Spider Functionality:__
+## Spider Functionality:
 The QotesSpider works as follows:
 
 1. It starts by sending a request to the 'https://quotes.toscrape.com/' URL.
@@ -14,25 +14,5 @@ The QotesSpider works as follows:
 ### Output
 The spider will create an output.json file in the project directory, containing the scraped data in JSON format.
 
-### Sample output in output.json:
 
-json
-
-Copy code
-
-[
-
-    {
-      "title": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”",
-      "author": "Albert Einstein",
-      "tag": "change, deep-thoughts, thinking, world"
-    },
-
-   {
-      "title": "“It is our choices, Harry, that show what we truly are, far more than our abilities.”",
-      "author": "J.K. Rowling",
-      "tag": "abilities, choices"
-   },
-   ...
-]
 
